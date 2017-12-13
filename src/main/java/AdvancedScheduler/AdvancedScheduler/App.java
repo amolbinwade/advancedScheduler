@@ -1,7 +1,7 @@
 package AdvancedScheduler.AdvancedScheduler;
 
 /**
- * Hello world!
+ * Hello App World!
  *
  */
 public class App 

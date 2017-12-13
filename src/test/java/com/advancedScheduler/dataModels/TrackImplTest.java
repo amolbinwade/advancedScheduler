@@ -23,7 +23,7 @@ public class TrackImplTest {
 	ScheduleMetaDataSingleton metadata;
 	
 	TrackImpl track;
-	
+	 
 	@Before
 	public void config(){
 		this.track = new TrackImpl(1, this.metadata);
