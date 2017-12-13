@@ -1,0 +1,7 @@
+Title = World Technology Conference
+Days = 1
+Tracks = 2
+Start Time = 9:00 am
+Lunch Time = 12:00 pm
+Noon Start Time = 1:00 pm
+Noon End Time= 5:00 pm
