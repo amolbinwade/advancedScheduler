@@ -24,7 +24,7 @@ import com.advancedscheduler.exceptions.ApplicationException;
  */
 @Component("scheduleMetaData")
 @Scope(BeanDefinition.SCOPE_SINGLETON) //by default Spring bean has singleton scope but declared explicitly to point it
-public class ScheduleMetaDataSingleton {
+public class ScheduleMetaDataSingleton implements InitializingBean{
 
 	private static ScheduleMetaDataSingleton instance;
 	private String title;

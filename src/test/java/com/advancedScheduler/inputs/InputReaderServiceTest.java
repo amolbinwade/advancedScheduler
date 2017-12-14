@@ -28,14 +28,14 @@ public class InputReaderServiceTest {
 	
 	@Test(expected=ApplicationException.class)
 	public void testInvalidPathExceptionReadSessionListFromFilePath() throws ApplicationException{
-		String filePath = "/home/amol/Programs/AdvancedScheduler/test2.txt";
+		String filePath = "/home/amol/Programs/advancedScheduler/test2.txt";
 		
 		readerService.readSessionListFromFilePath(filePath);
 	}
 	
 	@Test
 	public void testReadSessionListFromFilePath() throws ApplicationException{
-		String filePath = "/home/amol/Programs/AdvancedScheduler/test.txt";
+		String filePath = "/home/amol/Programs/advancedScheduler/test.txt";
 		
 		readerService.readSessionListFromFilePath(filePath);
 	}
@@ -48,14 +48,14 @@ public class InputReaderServiceTest {
 	
 	@Test(expected=ApplicationException.class)
 	public void testInvalidPathExceptionReadScheduleInputFromFilePath() throws ApplicationException{
-		String filePath = "/home/amol/Programs/AdvancedScheduler/test2.txt";
+		String filePath = "/home/amol/Programs/advancedScheduler/test2.txt";
 		
 		readerService.readScheduleInputDataFromFilePath(filePath);
 	}
 	
 	@Test
 	public void testReadScheduleInputFromFilePath() throws ApplicationException{
-		String filePath = "/home/amol/Programs/AdvancedScheduler/ScheduleInput.txt";
+		String filePath = "/home/amol/Programs/advancedScheduler/ScheduleInput.txt";
 		
 		readerService.readScheduleInputDataFromFilePath(filePath);
 	}

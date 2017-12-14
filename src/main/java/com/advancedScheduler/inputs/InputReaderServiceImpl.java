@@ -50,7 +50,8 @@ public class InputReaderServiceImpl implements InputReaderService{
 		try {			
 			try(Stream<String> lines = Files.lines(path)){
 				inputMap = lines.collect(Collectors
-						.toMap(line -> getKeyFromLine(line), line -> getValueFromLine(line) ));				
+						.toMap(line -> getKeyFromLine(line), line -> getValueFromLine(line),
+								(a,b) -> a));				
 			}
 
 		} catch (IOException e) {
